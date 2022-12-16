@@ -9,7 +9,7 @@ const election2 = {
 
 // exaple of add to object by function and normally 
 const db = {};
-const addToDb = (item) =>{
+const addToDb = (item) =>{ // there way to  insert any value into object
     // db.alom = 1 // method 1 to add any property value into object
     // db['alom'] = 1 // method 2 to add any property value into object
     db[item] = 1 // method 3 to add any property value into object 
