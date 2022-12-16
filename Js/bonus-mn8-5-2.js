@@ -1,4 +1,5 @@
-// exaple of add to object by function and normally 
+// read , write and stored data in localStorage 
+
 const db = {};
 const addToDb = (item) =>{
     // db.alom = 1 // method 1 to add any property value into object
@@ -9,4 +10,6 @@ const addToDb = (item) =>{
        db[item] = 1 // method 3 to add any property value into object 
     }
 }
-// addToDb("item")
+addToDb("item")
+JSON.parse(localStorage.getItem('db'))
+

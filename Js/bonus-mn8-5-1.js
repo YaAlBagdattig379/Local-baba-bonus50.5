@@ -7,7 +7,9 @@ const election2 = {
     nepun:1
 }
 
-// exaple of add to object by function and normally 
+// there way to  insert any value into object
+// there way to  insert any value into object
+
 const db = {};
 const addToDb = (item) =>{ // there way to  insert any value into object
     // db.alom = 1 // method 1 to add any property value into object
